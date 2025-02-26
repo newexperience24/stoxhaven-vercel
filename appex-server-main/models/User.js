@@ -23,6 +23,10 @@ const UsersSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
+  minimum: {
+    type: String,
+    
+  },
   
   kyc: {
     type: String,
